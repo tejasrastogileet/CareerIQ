@@ -55,32 +55,6 @@ The uploaded file is not permanently stored[cite: 3]. With the default Groq prov
 
 ---
 
-## 📸 Screenshots
-
-### 📝 Resume Analyzer
-
-The Angular frontend provides the responsive CareerIQ analyzer, with resume file upload and a paste-text fallback[cite: 3].
-
-![Resume Analyzer](docs/screenshots/resume-analyzer.png)
-
----
-
-### 🤖 AI Resume Analysis
-
-After the analysis is completed, CareerIQ displays detected skills, strengths, areas for improvement, and AI-generated recommendations[cite: 3].
-
-![AI Analysis Results](docs/screenshots/ai-analysis-results.png)
-
----
-
-### 🧠 Local Gemma 3 Response (Optional Provider)
-
-This screenshot shows the optional local Ollama/Gemma 3 provider[cite: 3]. Groq is the configured default[cite: 3].
-
-![Ollama Gemma Response](docs/screenshots/ollama-response.png)
-
----
-
 ## 🏗️ Architecture
 
 ```text
@@ -332,12 +306,6 @@ CareerI/
 │   ├── tsconfig.app.json
 │   ├── tsconfig.json
 │   └── tsconfig.spec.json
-│
-├── docs/
-│   └── screenshots/
-│       ├── ai-analysis-results.png
-│       ├── ollama-response.png
-│       └── resume-analyzer.png
 │
 ├── .gitignore
 ├── CareerIQ.sln
