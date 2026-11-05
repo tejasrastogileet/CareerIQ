@@ -1,0 +1,6 @@
+@CareerIQ.API_HostAddress = http://localhost:5155
+
+GET {{CareerIQ.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
